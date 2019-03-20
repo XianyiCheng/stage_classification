@@ -2,6 +2,10 @@ This is the visualization of our stage classification result for our screwdrivin
 
 
 
+Anomaly detection: 
+
+In the case where all the stages in an operation are classified as 'approach', the system would actually specified this operation as 'anomaly'. Also, the operation with no stage label but with 'unknown' as its tiltle, is also an 'anomaly'.  These two case are actually the same. This is caused by some inconsistency of plot labeling code across our different test. We will fix this. 
+
 ---------------------
 
 Below is the description about each folder.
@@ -65,3 +69,4 @@ The model *HMM4_before*, with just modification of experimental parameters of *H
 The model *HMM4_after*, perform data adaptation on 10 unlabeled samples based on *HMM4_before*, produce the following stage classification:  
 
 **after4**
+
