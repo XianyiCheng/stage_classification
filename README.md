@@ -1,6 +1,6 @@
 This is the visualization of our stage classification result for our screwdriving project.
 
-
+------------
 
 Anomaly detection: 
 
@@ -8,9 +8,9 @@ In the case where all the stages in an operation are classified as 'approach', t
 
 ---------------------
 
-Below is the description about each folder.
+Below is the description about each folder：
 
-
+-----
 
 #### dataset1
 
@@ -30,6 +30,8 @@ The model *HMM1_after*, perform data adaptation on 50 unlabeled samples, produce
 
 
 
+-----
+
 #### dataset 2
 
 The model *HMM2_before*, with just modification of experimental parameters of *HMM1_before*, produce the following stage classification:  
@@ -42,7 +44,7 @@ The model *HMM2_after*, perform data adaptation on 50 unlabeled samples based on
 
 **after2**: dataset2
 
-
+--------------------
 
 #### dataset 3
 
@@ -56,7 +58,7 @@ The model *HMM3_after*, perform data adaptation on 75 unlabeled samples based on
 
 **after3**
 
-
+--------------------
 
 #### dataset 4
 
